@@ -64,6 +64,8 @@ make
 
 #install
 sudo make install
+
+# reboot to start the wireless module or use modprobe to load the driver
 sudo modprobe 8821cu
 
 #uninstall the driver using make
@@ -100,6 +102,9 @@ sudo cp -r  RTL8821CU_driver_v5.4.1/driver /usr/src/${DRV_NAME}-${DRV_VERSION}
 sudo dkms add -m ${DRV_NAME} -v ${DRV_VERSION}
 sudo dkms build -m ${DRV_NAME} -v ${DRV_VERSION}
 sudo dkms install -m ${DRV_NAME} -v ${DRV_VERSION}
+
+# reboot to start the wireless module or use modprobe to load the driver
+sudo modprobe 8821cu
 
 # To remove a driver, do the following:
 DRV_NAME=rtl8821CU
