@@ -1,4 +1,4 @@
-# RTL8821CU_RTL8811CU_driver version v5.4.1
+# RTL8821CU_RTL8811CU_driver version v5.4.1  ([New 5.8.1 Version](https://github.com/axiomware/RTL8821CU_driver_v5.8.1))
 RTL8811CU driver
 
 The Realtek RTL8811CU-CG is a highly integrated single-chip that supports 1-stream 802.11ac solutions with Multi-user MIMO (Multiple-Input, Multiple-Output) and Wireless LAN (WLAN) USB interface controller. It combines a WLAN MAC, a 1T1R capable WLAN baseband, and RF in a single chip. The RTL8811CU-CG provides an outstanding solution for a high-performance integrated wireless device.:
